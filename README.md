@@ -15,8 +15,16 @@ For Windows:
 	conda env create -f requirements/statistical-inferences-windows.yml
 	activate statistical-inferences
 
-	For Mac/OSX:
+For Mac/OSX:
+        conda env create -f requirements/statistical-inferences-mac.yml
+        source activate statistical-inferences
 	
 Open the notebook and follow the instructions.
 
 	jupyter notebook boston_housing.ipynb
+
+Quick Anaconda tutorial:
+
+        1. Download Anaconda from https://www.continuum.io/downloads depending on the browser. 
+	2. Python comes in two flavours Python3 and Python2, download the 3.X.X installer. 
+	
