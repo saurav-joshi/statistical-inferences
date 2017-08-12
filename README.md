@@ -15,8 +15,10 @@ For Windows:
 	conda env create -f requirements/statistical-inferences-windows.yml
 	activate statistical-inferences
 
+
 For Mac/OSX:
-        conda env create -f requirements/statistical-inferences-mac.yml
+
+	conda env create -f requirements/statistical-inferences-mac.yml
         source activate statistical-inferences
 	
 Open the notebook and follow the instructions.
