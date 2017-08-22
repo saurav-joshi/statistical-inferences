@@ -1,4 +1,4 @@
-name: statistical-inferences
+name: statistical-inference
 channels:
 - defaults
 dependencies:
@@ -195,5 +195,4 @@ dependencies:
   - tensorflow==1.1.0
   - theano==0.9.0
   - win-unicode-console==0.5
-prefix: C:\Users\USER\AppData\Local\conda\conda\envs\statistical-inferences
 
