@@ -28,7 +28,9 @@ Note for R Kernel installations:
 R kernel installation my require an additional step. If R kernel is not installed via env file run the following command. 
 
 1. Activate statistical-inferences environment --- choose the command from above based on the OS
-2. execute following command -- conda install -c r r-irkernel
+2. execute following command:
+      
+      conda install -c r r-irkernel
 	
 Open the notebook and follow the instructions.
 
