@@ -34,7 +34,8 @@ R kernel installation my require an additional step. If R kernel is not installe
 	
 Open the notebook and follow the instructions.
 
-	jupyter notebook boston_housing.ipynb
+	jupyter notebook will open the entire work space 
+	jupyter notebook <notebook name> will open specific notebook
 
 Anaconda quick tutorial:
 
