@@ -22,10 +22,20 @@ For Mac/OSX:
 	conda env create -f requirements/statistical-inferences-mac.yml
         source activate statistical-inferences
 	source deactivate statistical-inferences
+
+Note for R Kernel installations: 
+
+R kernel installation my require an additional step. If R kernel is not installed via env file run the following command. 
+
+1. Activate statistical-inferences environment --- choose the command from above based on the OS
+2. execute following command:
+
+       conda install -c r r-irkernel
 	
 Open the notebook and follow the instructions.
 
-	jupyter notebook boston_housing.ipynb
+	jupyter notebook will open the entire work space 
+	jupyter notebook <notebook name> will open specific notebook
 
 Anaconda quick tutorial:
 
