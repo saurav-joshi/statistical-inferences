@@ -34,8 +34,10 @@ R kernel installation my require an additional step. If R kernel is not installe
 	
 Open the notebook and follow the instructions.
 
-	jupyter notebook will open the entire work space 
-	jupyter notebook <notebook name> will open specific notebook
+	jupyter notebook will open the entire work space (local machine)
+	jupyter notebook <notebook name> will open specific notebook (local machine)
+	
+	jupyter notebook --ip=0.0.0.0 --port=8080 (remote machine)
 
 Anaconda quick tutorial:
 
